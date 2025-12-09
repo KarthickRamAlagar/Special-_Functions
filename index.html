@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Functions</title>
+    <style>
+      #container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      }
+      .card {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 16px;
+        margin: 12px;
+        width: 250px;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+        font-family: Arial, sans-serif;
+      }
+      .card h2 {
+        margin: 0;
+        font-size: 20px;
+        color: #333;
+      }
+      .card p {
+        margin: 6px 0 0;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Special Fns in JS</h1>
+    <p>Call () Method is used to borrow the fn from objects</p>
+    <p>
+      apply() Method is Same as Call() Method but the difference is How passing
+      the arguments
+    </p>
+    <p>
+      bind() Method is same as Call() Method but Bind() Method doesn't calls
+      directly Method
+    </p>
+    <p>
+      Instead of Calling , it will takes the copy of the Method and Which can be
+      called it Later
+    </p>
+    <div id="container"></div>
+
+    <!-- <script src="call().js"></script> -->
+    <!-- <script src="apply().js"></script> -->
+    <!-- <script src="bind().js"></script> -->
+    <!-- <script src="polyfilsBind().js"></script> -->
+    <!-- <script src="./prototype_proto]otypalInheritance.js"></script> -->
+    <script src="./functionCurying.js"></script>
+  </body>
+</html>
