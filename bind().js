@@ -19,7 +19,7 @@ const Person2 = {
 // Call printName normally on Person1
 Person1.printName("TamilNadu", "Madurai");
 
-// Borrow printName from Person1 for Person2 using call()
+// Borrow printName from Person1 for Person2 using bind()
 let PrintInfo = Person1.printName.bind(Person2, "TamilNadu", "Chennai");
 PrintInfo();
 
